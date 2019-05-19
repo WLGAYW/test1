@@ -1,0 +1,7 @@
+#  settings中对下载中间件的设置
+DOWNLOADER_MIDDLEWARES = {
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': None,
+    'spbeen_downloadmiddleware.middlewares.SpbeenDownloadmiddlewareRandomUseragent2': 543,
+    'spbeen_downloadmiddleware.middlewares.SpbeenDownloadmiddlewareRandomProxyIP': 900,
+}
